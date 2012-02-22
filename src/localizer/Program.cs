@@ -16,7 +16,6 @@ namespace localizer
                 factory.RegisterCommands(typeof (IFubuCommand).Assembly);
                 factory.RegisterCommands(typeof (Program).Assembly);
 
-                // TODO -- don't think this should be permanent
                 factory.RegisterCommands(typeof (StringToken).Assembly);
 
                 var executor = new CommandExecutor(factory);
