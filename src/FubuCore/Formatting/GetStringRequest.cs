@@ -3,7 +3,7 @@ using System.Reflection;
 using FubuCore.Reflection;
 using Microsoft.Practices.ServiceLocation;
 
-namespace FubuCore
+namespace FubuCore.Formatting
 {
     public class GetStringRequest
     {

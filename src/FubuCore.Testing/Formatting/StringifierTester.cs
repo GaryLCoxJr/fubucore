@@ -1,11 +1,12 @@
 using System;
-using FubuCore.Reflection;
 using System.Reflection;
+using FubuCore.Formatting;
+using FubuCore.Reflection;
 using FubuCore.Testing.Binding;
 using FubuTestingSupport;
 using NUnit.Framework;
 
-namespace FubuCore.Testing
+namespace FubuCore.Testing.Formatting
 {
     [TestFixture]
     public class StringifierTester
